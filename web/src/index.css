@@ -1,0 +1,23 @@
+.books-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.book-wrapper {
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-color: rgb(236, 236, 236);
+  border-radius: 10px;
+  margin: 15px;
+  padding: 15px;
+}
+
+.book-image {
+  background-size: cover;
+  width: 160px;
+  height: 240px;
+}
+
+.book-description {
+  padding-top: 10px;
+}

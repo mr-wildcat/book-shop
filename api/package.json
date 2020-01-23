@@ -1,0 +1,14 @@
+{
+  "name": "bookshop-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "~4.16.1",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.8.9"
+  }
+}
